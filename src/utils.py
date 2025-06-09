@@ -1,4 +1,4 @@
-from pycocotools import COCO
+from pycocotools.coco import COCO
 
 class CocoDataSet:
 
