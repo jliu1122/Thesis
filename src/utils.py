@@ -1,4 +1,7 @@
-import os
+from pycocotools import COCO
 
-print("hello world")
-print("hello python")
+class CocoDataSet:
+
+  def __init__(self, captions, instance):
+    self.instance = COCO(instance)
+    self.captions = COCO(captions)
